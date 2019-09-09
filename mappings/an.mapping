@@ -1,0 +1,3 @@
+CLASS an
+	METHOD <init> (Lee;Lgh;Lgh;III)V
+		ARG 1 gui

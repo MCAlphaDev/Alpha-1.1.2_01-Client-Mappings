@@ -1,0 +1,2 @@
+CLASS dy net/minecraft/ByteArrayTag
+	FIELD a value [B

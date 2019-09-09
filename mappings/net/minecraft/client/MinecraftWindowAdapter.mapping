@@ -1,0 +1,7 @@
+CLASS fp net/minecraft/client/MinecraftWindowAdapter
+	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD b thread Ljava/lang/Thread;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/Thread;)V
+		ARG 1 instance
+		ARG 2 thread
+	METHOD windowClosing windowClosing (Ljava/awt/event/WindowEvent;)V

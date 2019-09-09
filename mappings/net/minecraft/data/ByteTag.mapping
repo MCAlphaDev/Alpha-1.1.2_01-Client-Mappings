@@ -1,0 +1,4 @@
+CLASS ix net/minecraft/data/ByteTag
+	FIELD a value B
+	METHOD <init> (B)V
+		ARG 1 data

@@ -1,0 +1,3 @@
+CLASS ey
+	FIELD h controls Lfr;
+	METHOD a getResource (Ljava/lang/String;)I

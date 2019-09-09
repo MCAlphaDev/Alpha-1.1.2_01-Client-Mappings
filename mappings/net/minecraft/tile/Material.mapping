@@ -1,0 +1,8 @@
+CLASS gb net/minecraft/tile/Material
+	FIELD c WOOD Lgb;
+	FIELD d ROCK Lgb;
+	FIELD e METAL Lgb;
+	FIELD f WATER Lgb;
+	FIELD g LAVA Lgb;
+	FIELD k CLOTH Lgb;
+	FIELD o GLASS Lgb;

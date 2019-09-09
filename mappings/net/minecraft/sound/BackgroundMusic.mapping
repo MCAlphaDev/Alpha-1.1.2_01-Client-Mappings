@@ -1,0 +1,2 @@
+CLASS of net/minecraft/sound/BackgroundMusic
+	FIELD a soundSystem Lpaulscode/sound/SoundSystem;

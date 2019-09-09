@@ -1,0 +1,4 @@
+CLASS ls net/minecraft/data/ShortTag
+	FIELD a value S
+	METHOD <init> (S)V
+		ARG 1 data

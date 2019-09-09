@@ -1,0 +1,5 @@
+CLASS lg net/minecraft/item/Record
+	FIELD a disk Ljava/lang/String;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 disk

@@ -1,0 +1,57 @@
+CLASS cn net/minecraft/level/Level
+	FIELD I playerInfo Lhm;
+	FIELD c time J
+	FIELD d snowCovered Z
+	FIELD n rand Ljava/util/Random;
+	FIELD o spawnX I
+	FIELD p spawnY I
+	FIELD q spawnZ I
+	FIELD t worldFile Ljava/io/File;
+	FIELD u seed J
+	FIELD v sizeOnDisk J
+	FIELD w name Ljava/lang/String;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 saves
+		ARG 2 levelName
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;J)V
+		ARG 1 location
+		ARG 2 name
+		ARG 3 seed
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD a setSpawnPos ()V
+	METHOD a setTileId (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileId
+	METHOD a computeLight (Lby;III)I
+	METHOD a readTagOrSomething (Ljava/io/File;Ljava/lang/String;)Lhm;
+		ARG 0 directory
+		ARG 1 levelName
+	METHOD a playSound (Ljava/lang/String;DDDDDD)V
+	METHOD a spawnEntity (Lkh;)Z
+	METHOD a playSound (Lkh;Ljava/lang/String;FF)V
+	METHOD a (ZLnu;)V
+		ARG 2 info
+	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
+		ARG 0 directory
+		ARG 1 levelName
+	METHOD d (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f isSandyBeach (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD g getSurfaceTile (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD h (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

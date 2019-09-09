@@ -1,0 +1,4 @@
+CLASS kr net/minecraft/data/DoubleTag
+	FIELD a value D
+	METHOD <init> (D)V
+		ARG 1 data

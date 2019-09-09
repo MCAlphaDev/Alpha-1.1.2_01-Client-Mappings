@@ -1,0 +1,2 @@
+CLASS ff net/minecraft/util/math/UnknownEntityInstance2
+	METHOD i getLevel ()Lcn;

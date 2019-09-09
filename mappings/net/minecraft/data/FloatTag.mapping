@@ -1,0 +1,4 @@
+CLASS f net/minecraft/data/FloatTag
+	FIELD a value F
+	METHOD <init> (F)V
+		ARG 1 data

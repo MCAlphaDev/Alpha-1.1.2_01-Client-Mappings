@@ -1,0 +1,4 @@
+CLASS gn net/minecraft/data/LongTag
+	FIELD a value J
+	METHOD <init> (J)V
+		ARG 1 data

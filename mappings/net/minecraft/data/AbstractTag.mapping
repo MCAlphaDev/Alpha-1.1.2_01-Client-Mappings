@@ -1,0 +1,19 @@
+CLASS el net/minecraft/data/AbstractTag
+	FIELD a type Ljava/lang/String;
+	METHOD a getId ()B
+	METHOD a getTagById (B)Lel;
+		ARG 0 id
+	METHOD a writeTag (Lel;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 out
+	METHOD a read (Ljava/io/DataInput;)V
+		ARG 1 in
+	METHOD a write (Ljava/io/DataOutput;)V
+		ARG 1 out
+	METHOD a setType (Ljava/lang/String;)Lel;
+		ARG 1 tagType
+	METHOD b getType ()Ljava/lang/String;
+	METHOD b getTagType (B)Ljava/lang/String;
+		ARG 0 id
+	METHOD b readTag (Ljava/io/DataInput;)Lel;
+		ARG 0 in

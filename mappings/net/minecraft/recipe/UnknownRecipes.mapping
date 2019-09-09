@@ -1,0 +1,3 @@
+CLASS lf net/minecraft/recipe/UnknownRecipes
+	METHOD a (Ldw;)V
+		ARG 1 recipe

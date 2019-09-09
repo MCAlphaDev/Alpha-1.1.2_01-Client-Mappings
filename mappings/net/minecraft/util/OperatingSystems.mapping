@@ -1,0 +1,2 @@
+CLASS fq net/minecraft/util/OperatingSystems
+	FIELD a systems [I

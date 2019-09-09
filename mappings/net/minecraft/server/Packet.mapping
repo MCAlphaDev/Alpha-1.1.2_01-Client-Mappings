@@ -1,0 +1,6 @@
+CLASS fn net/minecraft/server/Packet
+	METHOD a getId ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 in
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 out

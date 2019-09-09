@@ -1,0 +1,2 @@
+CLASS kd
+	METHOD a addText (Ljava/lang/String;III)V

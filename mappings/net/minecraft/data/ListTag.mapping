@@ -1,0 +1,8 @@
+CLASS ki net/minecraft/data/ListTag
+	FIELD a list Ljava/util/List;
+	FIELD b listTypeId B
+	METHOD a get (I)Lel;
+		ARG 1 index
+	METHOD a add (Lel;)V
+		ARG 1 item
+	METHOD c size ()I

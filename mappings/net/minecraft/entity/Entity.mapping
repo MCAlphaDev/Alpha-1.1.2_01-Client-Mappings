@@ -1,0 +1,7 @@
+CLASS ak net/minecraft/entity/Entity
+	METHOD a setTexture (Ljava/lang/String;)V
+	METHOD a (Lkh;DDDFF)V
+		ARG 1 rotation
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

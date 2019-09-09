@@ -1,0 +1,18 @@
+CLASS fr net/minecraft/client/Controls
+	FIELD A optionsFile Ljava/io/File;
+	FIELD j forward Lit;
+	FIELD k left Lit;
+	FIELD l back Lit;
+	FIELD m right Lit;
+	FIELD n jump Lit;
+	FIELD o inventory Lit;
+	FIELD p drop Lit;
+	FIELD q chat Lit;
+	FIELD r toggleFog Lit;
+	FIELD s sneak Lit;
+	FIELD t keys [Lit;
+	FIELD u instance Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 instance
+		ARG 2 directory
+	METHOD a init ()V

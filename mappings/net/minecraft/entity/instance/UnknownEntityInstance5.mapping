@@ -1,0 +1,3 @@
+CLASS nf net/minecraft/entity/instance/UnknownEntityInstance5
+	METHOD <init> (Lcn;DDD)V
+		ARG 1 level
