@@ -1,0 +1,3 @@
+CLASS nn net/minecraft/level/gen/feature/Spring
+	METHOD <init> (I)V
+		ARG 1 tileId

@@ -1,0 +1,8 @@
+CLASS aw net/minecraft/level/gen/ILevelGenerator
+	METHOD a decorate (Law;II)V
+		ARG 1 levelGenerator
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD b createChunk (II)Lga;
+		ARG 1 chunkX
+		ARG 2 chunkZ

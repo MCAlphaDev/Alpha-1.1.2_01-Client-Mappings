@@ -1,0 +1,2 @@
+CLASS lp net/minecraft/util/noise/OctaveNoiseGenerator
+	METHOD a sample ([DDDDIIIDDD)[D

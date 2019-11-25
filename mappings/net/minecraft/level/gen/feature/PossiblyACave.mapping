@@ -1,0 +1,5 @@
+CLASS ej net/minecraft/level/gen/feature/PossiblyACave
+	FIELD b rand Ljava/util/Random;
+	FIELD c level Lcn;
+	METHOD a ([I[II)V
+		ARG 3 tileId

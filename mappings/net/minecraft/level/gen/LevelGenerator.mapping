@@ -1,0 +1,40 @@
+CLASS nw net/minecraft/level/gen/LevelGenerator
+	FIELD a noise6 Llp;
+	FIELD b noise7 Llp;
+	FIELD c nosie8 Llp;
+	FIELD d noiseArray3 [D
+	FIELD e noiseArray2 [D
+	FIELD f noiseArray1 [D
+	FIELD g noiseArray4 [D
+	FIELD h noiseArray5 [D
+	FIELD j rand Ljava/util/Random;
+	FIELD k noise1 Llp;
+	FIELD l noise2 Llp;
+	FIELD m noise3 Llp;
+	FIELD n beachNoise Llp;
+	FIELD o surfaceNoise Llp;
+	FIELD p level Lcn;
+	FIELD q heightNoise [D
+	FIELD r sandSample [D
+	FIELD s gravelSample [D
+	FIELD t stoneSample [D
+	FIELD u carver Lcy;
+	METHOD <init> (Lcn;J)V
+		ARG 1 level
+		ARG 2 seed
+	METHOD a generateBase (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks
+	METHOD a generateNoiseOctaves ([DIIIIII)[D
+		ARG 1 oldArray
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize
+	METHOD b replaceBlocks (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks

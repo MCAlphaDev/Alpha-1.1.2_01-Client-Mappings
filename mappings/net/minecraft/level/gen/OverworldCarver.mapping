@@ -1,0 +1,16 @@
+CLASS kk net/minecraft/level/gen/OverworldCarver
+	METHOD a carve (II[BDDD)V
+		ARG 1 centreX
+		ARG 2 centreZ
+		ARG 3 blocks
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+	METHOD a carve (II[BDDDFFFIID)V
+		ARG 1 centreX
+		ARG 2 centreZ
+		ARG 3 blocks
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z
+		ARG 10 randomFloat
