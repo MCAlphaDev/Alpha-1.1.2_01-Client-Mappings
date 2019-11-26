@@ -1,7 +1,7 @@
 CLASS nw net/minecraft/level/gen/LevelGenerator
 	FIELD a noise6 Llp;
 	FIELD b noise7 Llp;
-	FIELD c nosie8 Llp;
+	FIELD c noise8 Llp;
 	FIELD d noiseArray3 [D
 	FIELD e noiseArray2 [D
 	FIELD f noiseArray1 [D
