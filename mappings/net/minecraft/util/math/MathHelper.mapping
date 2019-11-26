@@ -1,0 +1,11 @@
+CLASS eo net/minecraft/util/math/MathHelper
+	METHOD a sqrt (D)F
+		ARG 0 arg0
+	METHOD b floor (D)I
+		ARG 0 arg0
+	METHOD c sqrt (F)F
+		ARG 0 arg0
+	METHOD d floor (F)I
+		ARG 0 arg0
+	METHOD e abs (F)F
+		ARG 0 arg0

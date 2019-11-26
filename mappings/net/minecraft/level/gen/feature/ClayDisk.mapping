@@ -1,0 +1,5 @@
+CLASS gv net/minecraft/level/gen/feature/ClayDisk
+	FIELD a clay I
+	FIELD b range I
+	METHOD <init> (I)V
+		ARG 1 range

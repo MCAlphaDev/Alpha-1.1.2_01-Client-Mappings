@@ -1,6 +1,7 @@
 CLASS di net/minecraft/item/Item
 	FIELD b rand Ljava/util/Random;
 	FIELD c ITEM_LOOKUP [Ldi;
+	FIELD l DIAMOND Ldi;
 	METHOD <init> (I)V
 		ARG 1 id
 	METHOD a onRightClick (Lev;Lcn;Ldm;)Lev;
