@@ -1,4 +1,4 @@
-CLASS ej net/minecraft/level/gen/feature/ProbablyNotACave
+CLASS ej net/minecraft/level/gen/feature/LargeTree
 	FIELD b rand Ljava/util/Random;
 	FIELD c level Lcn;
 	METHOD a ([I[II)V
