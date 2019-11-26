@@ -1,0 +1,18 @@
+CLASS v net/minecraft/util/noise/SingleNoiseGenerator
+	FIELD a offsetX D
+	FIELD b offsetY D
+	FIELD c offsetZ D
+	FIELD d p [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand
+	METHOD a sample (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a sample (DDD)D
+	METHOD a gradient (IDDD)D
+	METHOD a sample ([DDDDIIIDDDD)V
+		ARG 1 arrayToReuse
+	METHOD b lerp (DDD)D
+		ARG 1 progress
+		ARG 3 low
+		ARG 5 high

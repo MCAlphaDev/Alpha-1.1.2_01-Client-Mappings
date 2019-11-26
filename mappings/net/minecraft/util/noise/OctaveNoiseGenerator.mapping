@@ -1,2 +1,11 @@
 CLASS lp net/minecraft/util/noise/OctaveNoiseGenerator
+	FIELD a generators [Lv;
+	FIELD b octaves I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 rand
+		ARG 2 octaveCount
+	METHOD a sample (DD)D
+		ARG 1 x
+		ARG 3 y
 	METHOD a sample ([DDDDIIIDDD)[D
+		ARG 1 arrayToReuse
