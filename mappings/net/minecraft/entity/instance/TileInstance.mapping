@@ -1,3 +1,0 @@
-CLASS nq net/minecraft/entity/instance/TileInstance
-	METHOD <init> (Lcn;DDDDDD)V
-		ARG 1 level

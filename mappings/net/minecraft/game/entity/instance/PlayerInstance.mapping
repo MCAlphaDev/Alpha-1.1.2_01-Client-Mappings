@@ -1,0 +1,4 @@
+CLASS la net/minecraft/game/entity/instance/PlayerInstance
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lcn;Ldl;Lgy;)V
+		ARG 1 minecraft
+		ARG 2 levl

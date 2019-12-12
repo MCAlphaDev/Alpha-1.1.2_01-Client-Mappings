@@ -1,0 +1,2 @@
+CLASS dh net/minecraft/game/tile/Sand
+	FIELD a dontDoFalling Z

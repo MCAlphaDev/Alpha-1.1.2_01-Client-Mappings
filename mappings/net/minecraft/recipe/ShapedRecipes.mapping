@@ -1,2 +1,0 @@
-CLASS dw net/minecraft/recipe/ShapedRecipes
-	METHOD a addRecipe (Lev;[Ljava/lang/Object;)V

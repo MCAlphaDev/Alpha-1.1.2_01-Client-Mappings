@@ -1,0 +1,3 @@
+CLASS lf net/minecraft/game/recipe/MetalBlockRecipes
+	METHOD a (Ldw;)V
+		ARG 1 recipe

@@ -1,0 +1,6 @@
+CLASS bb net/minecraft/game/tile/TileSound
+	FIELD a name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 name
+	METHOD a getStepSoundA ()Ljava/lang/String;
+	METHOD d getStepSoundB ()Ljava/lang/String;

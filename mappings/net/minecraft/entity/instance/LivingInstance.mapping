@@ -1,3 +1,0 @@
-CLASS ek net/minecraft/entity/instance/LivingInstance
-	METHOD a (Lkh;F)V
-		ARG 1 instance

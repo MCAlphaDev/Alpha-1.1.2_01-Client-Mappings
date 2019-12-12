@@ -1,0 +1,4 @@
+CLASS bi net/minecraft/game/entity/instance/BasePlayerInstance
+	FIELD bg minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lcn;Ldl;)V
+		ARG 1 minecraft

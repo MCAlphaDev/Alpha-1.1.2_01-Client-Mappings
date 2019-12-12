@@ -1,0 +1,4 @@
+CLASS nt net/minecraft/game/entity/instance/SelfInstance
+	METHOD <init> (Lcn;Ljava/lang/String;)V
+		ARG 1 level
+		ARG 2 skinLoc

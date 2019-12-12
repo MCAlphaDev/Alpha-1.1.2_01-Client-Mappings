@@ -1,5 +1,0 @@
-CLASS e
-	FIELD k level Lcn;
-	FIELD t minecraft Lnet/minecraft/client/Minecraft;
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Ley;)V
-		ARG 1 minecraft

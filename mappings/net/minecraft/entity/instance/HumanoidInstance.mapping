@@ -1,2 +1,0 @@
-CLASS dm net/minecraft/entity/instance/HumanoidInstance
-	FIELD d score I

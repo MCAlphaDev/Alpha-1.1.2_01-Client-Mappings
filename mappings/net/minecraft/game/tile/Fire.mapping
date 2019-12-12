@@ -1,0 +1,3 @@
+CLASS og net/minecraft/game/tile/Fire
+	METHOD a addFlammableMaterial (III)V
+		ARG 1 id

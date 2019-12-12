@@ -1,0 +1,40 @@
+CLASS ev net/minecraft/game/item/ItemInstance
+	FIELD a count I
+	FIELD c id I
+	FIELD d meta I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 count
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 count
+		ARG 3 meta
+	METHOD <init> (Ldi;)V
+		ARG 1 item
+	METHOD <init> (Ldi;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lhm;)V
+		ARG 1 tag
+	METHOD <init> (Lly;)V
+		ARG 1 tile
+	METHOD <init> (Lly;I)V
+		ARG 1 tile
+		ARG 2 count
+	METHOD a getItem ()Ldi;
+	METHOD a subtract (I)Lev;
+		ARG 1 arg0
+	METHOD a (Ldm;)V
+		ARG 1 resourceHandler
+	METHOD a (Ldm;Lcn;IIII)Z
+		ARG 1 resourceHandler
+		ARG 2 level
+	METHOD a (Lly;)F
+		ARG 1 tile
+	METHOD b (Lge;)V
+		ARG 1 resourceHandler
+	METHOD b setOutput (Lhm;)V
+	METHOD b (Lly;)Z
+		ARG 1 item

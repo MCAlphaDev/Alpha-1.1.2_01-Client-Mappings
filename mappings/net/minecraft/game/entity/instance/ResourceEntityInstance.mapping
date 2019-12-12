@@ -1,0 +1,6 @@
+CLASS ge net/minecraft/game/entity/instance/ResourceEntityInstance
+	FIELD u texture Ljava/lang/String;
+	FIELD x name Ljava/lang/String;
+	METHOD c getAmbientSound ()Ljava/lang/String;
+	METHOD d getHurtSound2 ()Ljava/lang/String;
+	METHOD e getDeathSound ()Ljava/lang/String;

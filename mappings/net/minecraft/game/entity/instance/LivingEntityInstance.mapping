@@ -1,0 +1,3 @@
+CLASS ek net/minecraft/game/entity/instance/LivingEntityInstance
+	METHOD a (Lkh;F)V
+		ARG 1 instance
