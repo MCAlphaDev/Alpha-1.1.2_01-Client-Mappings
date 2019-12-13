@@ -1,0 +1,4 @@
+CLASS nz net/minecraft/game/entity/monster/Giant
+	FIELD f proportion F
+	METHOD <init> (Lfo;FF)V
+		ARG 1 model

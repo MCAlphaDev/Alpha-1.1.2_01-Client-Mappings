@@ -1,0 +1,3 @@
+CLASS dn net/minecraft/game/entity/monster/Monster
+	METHOD a render (Lge;F)V
+		ARG 1 instance

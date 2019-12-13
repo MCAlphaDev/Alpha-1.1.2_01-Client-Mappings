@@ -1,0 +1,2 @@
+CLASS h net/minecraft/client/AppletMinecraftCanvas
+	FIELD a applet Lnet/minecraft/client/MinecraftApplet;
