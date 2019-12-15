@@ -1,2 +1,23 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
-	FIELD g playerResourceHandler Lbi;
+	FIELD e level Lcn;
+	FIELD f clientLevelRenderer Le;
+	FIELD g player Lbi;
+	FIELD p screen Lbh;
+	METHOD a setLevel (Lcn;)V
+		ARG 1 level
+	METHOD a setDisplayInfo (Lcn;Ljava/lang/String;)V
+		ARG 1 level
+		ARG 2 info
+	METHOD a getSoundResource (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 resource
+		ARG 2 file
+	METHOD a startGame (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 username
+	METHOD a startGame (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 username
+	METHOD b loadLevel (Ljava/lang/String;)V
+		ARG 1 level
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD o respawn ()V
+	METHOD q getOperatingSystem ()Lih;
