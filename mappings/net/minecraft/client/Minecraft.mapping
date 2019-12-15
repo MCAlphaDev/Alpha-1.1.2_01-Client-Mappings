@@ -3,6 +3,8 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD f clientLevelRenderer Le;
 	FIELD g player Lbi;
 	FIELD p screen Lbh;
+	FIELD y controls Lfr;
+	METHOD a initialise ()V
 	METHOD a setLevel (Lcn;)V
 		ARG 1 level
 	METHOD a setDisplayInfo (Lcn;Ljava/lang/String;)V
@@ -17,6 +19,9 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 0 username
 	METHOD b loadLevel (Ljava/lang/String;)V
 		ARG 1 level
+	METHOD c stopGame ()V
+	METHOD c catchGLError (Ljava/lang/String;)V
+		ARG 1 gameStage
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD o respawn ()V
