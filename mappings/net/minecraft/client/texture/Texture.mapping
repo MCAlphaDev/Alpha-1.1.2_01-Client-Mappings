@@ -1,0 +1,2 @@
+CLASS z net/minecraft/client/texture/Texture
+	METHOD a prepareTexture ()V

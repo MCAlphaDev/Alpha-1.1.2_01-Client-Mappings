@@ -1,0 +1,3 @@
+CLASS hr net/minecraft/game/recipe/MushroomSoupRecipes
+	METHOD a addRecipes (Ldw;)V
+		ARG 1 recipe

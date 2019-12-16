@@ -41,6 +41,7 @@ CLASS cn net/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD d setTileIdForFluids (IIII)Z
 	METHOD f isSandyBeach (II)Z
 		ARG 1 x
 		ARG 2 z

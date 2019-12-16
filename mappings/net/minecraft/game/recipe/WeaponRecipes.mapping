@@ -1,0 +1,5 @@
+CLASS nd net/minecraft/game/recipe/WeaponRecipes
+	FIELD a recipeShape [[Ljava/lang/String;
+	FIELD b materials [[Ljava/lang/Object;
+	METHOD a addRecipes (Ldw;)V
+		ARG 1 shapedRecipes

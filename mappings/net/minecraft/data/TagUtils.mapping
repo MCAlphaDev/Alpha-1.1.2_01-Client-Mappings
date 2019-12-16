@@ -1,0 +1,15 @@
+CLASS x net/minecraft/data/TagUtils
+	METHOD a convertTagToBytes (Lhm;)[B
+		ARG 0 tag
+	METHOD a write (Lhm;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a writeTag (Lhm;Ljava/io/OutputStream;)V
+		ARG 0 tag
+		ARG 1 output
+	METHOD a read (Ljava/io/DataInput;)Lhm;
+		ARG 0 input
+	METHOD a readTag (Ljava/io/InputStream;)Lhm;
+		ARG 0 input
+	METHOD a readBytes ([B)Lhm;
+		ARG 0 arr

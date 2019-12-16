@@ -1,2 +1,7 @@
 CLASS dw net/minecraft/game/recipe/ShapedRecipes
+	FIELD a INSTANCE Ldw;
+	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Ldw;
 	METHOD a addRecipe (Lev;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 recipe

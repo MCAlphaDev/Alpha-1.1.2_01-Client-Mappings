@@ -1,3 +1,4 @@
 CLASS lf net/minecraft/game/recipe/MetalBlockRecipes
-	METHOD a (Ldw;)V
+	FIELD a METALS [[Ljava/lang/Object;
+	METHOD a addRecipes (Ldw;)V
 		ARG 1 recipe

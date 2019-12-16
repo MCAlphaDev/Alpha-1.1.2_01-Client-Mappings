@@ -48,7 +48,7 @@ CLASS ly net/minecraft/game/tile/Tile
 	FIELD aU ICE Lly;
 	FIELD aV SNOW Lly;
 	FIELD aW CACTUS Lly;
-	FIELD aX CLAY Lly;
+	FIELD aX CLAY_BLOCK Lly;
 	FIELD aY REEDS Lly;
 	FIELD aZ JUKEBOX Lly;
 	FIELD aa RESERVED_13 Lly;
@@ -71,7 +71,7 @@ CLASS ly net/minecraft/game/tile/Tile
 	FIELD ar TORCH Lly;
 	FIELD as FIRE Log;
 	FIELD at MOB_SPAWNER Lly;
-	FIELD au WOOD_STAIRS Lly;
+	FIELD au WOODEN_STAIRS Lly;
 	FIELD av CHEST Lly;
 	FIELD aw REDSTONE Lly;
 	FIELD ax ORE_DIAMOND Lly;
