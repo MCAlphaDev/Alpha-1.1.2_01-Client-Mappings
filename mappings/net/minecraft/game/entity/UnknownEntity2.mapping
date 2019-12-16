@@ -1,4 +1,4 @@
-CLASS ge net/minecraft/game/entity/instance/ResourceEntityInstance
+CLASS ge net/minecraft/game/entity/UnknownEntity2
 	FIELD u texture Ljava/lang/String;
 	FIELD x name Ljava/lang/String;
 	METHOD c getAmbientSound ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS kx net/minecraft/client/render/EntityRenderManager
+	FIELD a instance Lkx;
+	FIELD g level Lcn;
+	FIELD o entityToRendererMap Ljava/util/Map;

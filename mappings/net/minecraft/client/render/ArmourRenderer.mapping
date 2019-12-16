@@ -1,0 +1,2 @@
+CLASS bu net/minecraft/client/render/ArmourRenderer
+	FIELD i armours [Ljava/lang/String;

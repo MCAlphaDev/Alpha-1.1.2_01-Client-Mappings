@@ -1,0 +1,3 @@
+CLASS oc net/minecraft/game/entity/ContainerTileEntity
+	FIELD d type I
+	FIELD h inventory [Lev;

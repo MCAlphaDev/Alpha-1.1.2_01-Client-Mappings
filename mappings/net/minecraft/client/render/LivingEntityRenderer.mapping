@@ -1,4 +1,4 @@
-CLASS dn net/minecraft/game/entity/LivingEntity
+CLASS dn net/minecraft/client/render/LivingEntityRenderer
 	METHOD a scale (Lge;F)V
 		ARG 1 instance
 	METHOD a getSpawnPos (Lge;FF)I

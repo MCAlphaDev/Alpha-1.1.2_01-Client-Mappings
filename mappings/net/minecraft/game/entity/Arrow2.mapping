@@ -1,1 +1,9 @@
-CLASS gk net/minecraft/game/entity/Arrow2
+CLASS kg net/minecraft/game/entity/Arrow2
+	FIELD a shake I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e inTile I
+	FIELD f inGround Z
+	METHOD <init> (Lcn;Lge;)V
+		ARG 1 level

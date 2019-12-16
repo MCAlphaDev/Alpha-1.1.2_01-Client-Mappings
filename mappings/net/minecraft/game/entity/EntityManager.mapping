@@ -1,5 +1,0 @@
-CLASS kx net/minecraft/game/entity/EntityManager
-	FIELD a instance Lkx;
-	FIELD g level Lcn;
-	FIELD h player Ldm;
-	FIELD o instanceToEntityMap Ljava/util/Map;

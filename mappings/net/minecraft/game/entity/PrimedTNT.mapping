@@ -1,1 +1,2 @@
-CLASS hw net/minecraft/game/entity/PrimedTNT
+CLASS jd net/minecraft/game/entity/PrimedTNT
+	FIELD a fuse I

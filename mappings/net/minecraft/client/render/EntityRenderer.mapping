@@ -1,0 +1,7 @@
+CLASS ak net/minecraft/client/render/EntityRenderer
+	METHOD a setTexture (Ljava/lang/String;)V
+	METHOD a render (Lkh;DDDFF)V
+		ARG 1 data
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

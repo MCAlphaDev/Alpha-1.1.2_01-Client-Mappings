@@ -1,0 +1,4 @@
+CLASS nz net/minecraft/client/render/GiantRenderer
+	FIELD f proportion F
+	METHOD <init> (Lfo;FF)V
+		ARG 1 model

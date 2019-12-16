@@ -1,2 +1,0 @@
-CLASS jd net/minecraft/game/entity/instance/PrimedTNTInstance
-	FIELD a fuse I

@@ -1,0 +1,3 @@
+CLASS dm net/minecraft/game/entity/HumanoidEntity
+	FIELD d score I
+	FIELD i skinLoc Ljava/lang/String;

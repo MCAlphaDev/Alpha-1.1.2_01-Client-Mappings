@@ -1,2 +1,0 @@
-CLASS dx net/minecraft/game/entity/PlayerEntity
-	FIELD a item Lev;
