@@ -1,0 +1,7 @@
+CLASS dn net/minecraft/game/entity/LivingEntity
+	METHOD a scale (Lge;F)V
+		ARG 1 instance
+	METHOD a getSpawnPos (Lge;FF)I
+		ARG 1 instance
+		ARG 2 x
+		ARG 3 z

@@ -1,4 +1,4 @@
-CLASS kg net/minecraft/game/entity/instance/UnknownEntityInstance
+CLASS kg net/minecraft/game/entity/instance/Arrow2Instance
 	FIELD a shake I
 	FIELD b xTile I
 	FIELD c yTile I

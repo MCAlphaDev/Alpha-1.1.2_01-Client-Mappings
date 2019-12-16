@@ -1,2 +1,1 @@
-CLASS bw net/minecraft/game/entity/instance/PaintingInstance
-	FIELD d rand Ljava/util/Random;
+CLASS jc net/minecraft/game/entity/instance/PaintingInstance

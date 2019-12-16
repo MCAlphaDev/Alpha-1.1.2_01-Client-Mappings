@@ -1,0 +1,2 @@
+CLASS bw net/minecraft/game/entity/Painting
+	FIELD d rand Ljava/util/Random;

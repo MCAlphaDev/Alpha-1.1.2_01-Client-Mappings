@@ -1,6 +1,6 @@
 CLASS ak net/minecraft/game/entity/Entity
 	METHOD a setTexture (Ljava/lang/String;)V
-	METHOD a (Lkh;DDDFF)V
+	METHOD a render (Lkh;DDDFF)V
 		ARG 1 data
 		ARG 2 x
 		ARG 4 y

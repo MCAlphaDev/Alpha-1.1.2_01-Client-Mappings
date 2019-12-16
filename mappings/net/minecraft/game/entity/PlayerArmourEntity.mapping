@@ -1,0 +1,2 @@
+CLASS bu net/minecraft/game/entity/PlayerArmourEntity
+	FIELD i armours [Ljava/lang/String;
