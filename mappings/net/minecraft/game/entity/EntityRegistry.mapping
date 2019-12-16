@@ -1,0 +1,9 @@
+CLASS ew net/minecraft/game/entity/EntityRegistry
+	FIELD a nameToClassMap Ljava/util/Map;
+	FIELD b classToNameMap Ljava/util/Map;
+	FIELD c idToClassMap Ljava/util/Map;
+	FIELD d classToIdMap Ljava/util/Map;
+	METHOD a registerEntity (Ljava/lang/Class;Ljava/lang/String;I)V
+		ARG 0 clazz
+		ARG 1 name
+		ARG 2 id
