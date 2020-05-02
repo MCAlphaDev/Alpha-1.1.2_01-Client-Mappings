@@ -1,0 +1,10 @@
+CLASS le net/minecraft/level/chunk/ChunkSaveManager
+	FIELD a levelFile Ljava/io/File;
+	METHOD a getChunkFile (II)Ljava/io/File;
+		ARG 1 chunkX
+		ARG 2 chunkZ
+	METHOD a loadBaseChunk (Lcn;Lhm;)Lga;
+		ARG 0 level
+		ARG 1 data
+	METHOD a save (Lga;Lcn;Lhm;)V
+		ARG 3 tag

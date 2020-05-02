@@ -1,4 +1,4 @@
-CLASS nm
+CLASS nm net/minecraft/level/ILevel
 	METHOD a getTileId (III)I
 		ARG 1 x
 		ARG 2 y

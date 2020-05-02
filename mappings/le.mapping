@@ -1,4 +1,0 @@
-CLASS le
-	METHOD a (Lcn;Lhm;)Lga;
-		ARG 0 level
-		ARG 1 data

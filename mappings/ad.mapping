@@ -1,0 +1,5 @@
+CLASS ad
+	FIELD d level Lcn;
+	METHOD b createLevel (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD e getOS ()Lfa;

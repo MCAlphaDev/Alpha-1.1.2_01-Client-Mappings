@@ -1,0 +1,2 @@
+CLASS gs net/minecraft/server/ServerLevel
+	FIELD E entitySet Ljava/util/Set;

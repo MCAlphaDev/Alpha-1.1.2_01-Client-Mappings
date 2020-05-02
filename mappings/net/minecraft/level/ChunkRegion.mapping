@@ -1,0 +1,3 @@
+CLASS ci net/minecraft/level/ChunkRegion
+	FIELD c chunks [[Lga;
+	FIELD d parent Lcn;

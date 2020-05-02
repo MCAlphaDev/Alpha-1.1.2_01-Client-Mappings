@@ -1,0 +1,2 @@
+CLASS mu net/minecraft/level/chunk/ChunkByteArray
+	FIELD a value [B

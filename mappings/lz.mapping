@@ -1,0 +1,5 @@
+CLASS lz
+	FIELD d level Lcn;
+	METHOD d generateChunk (II)Lga;
+		ARG 1 chunkX
+		ARG 2 chunkZ

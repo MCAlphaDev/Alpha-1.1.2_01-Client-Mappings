@@ -1,0 +1,8 @@
+CLASS af net/minecraft/level/chunk/IChunkSaveManager
+	METHOD a loadChunk (Lcn;II)Lga;
+		ARG 1 level
+		ARG 2 chunkX
+		ARG 3 chunkZ
+	METHOD a writeChunk (Lcn;Lga;)V
+		ARG 1 level
+		ARG 2 chunk

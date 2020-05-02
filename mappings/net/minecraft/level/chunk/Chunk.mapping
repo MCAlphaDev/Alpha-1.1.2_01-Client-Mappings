@@ -1,1 +1,10 @@
 CLASS ga net/minecraft/level/chunk/Chunk
+	FIELD b blocks [B
+	FIELD e data Lmu;
+	FIELD f skyLight Lmu;
+	FIELD g blockLight Lmu;
+	FIELD h heightMap [B
+	FIELD j x I
+	FIELD k z I
+	FIELD n terrainPopulated Z
+	METHOD a isAt (II)Z

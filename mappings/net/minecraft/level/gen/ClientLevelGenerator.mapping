@@ -1,0 +1,5 @@
+CLASS ck net/minecraft/level/gen/ClientLevelGenerator
+	FIELD b chunks [Lga;
+	FIELD c level Lcn;
+	METHOD <init> (Lcn;Laf;)V
+		ARG 1 level

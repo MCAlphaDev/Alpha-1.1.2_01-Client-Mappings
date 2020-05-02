@@ -1,7 +1,10 @@
 CLASS cn net/minecraft/level/Level
+	FIELD H generator Law;
 	FIELD I playerInfo Lhm;
-	FIELD c time J
+	FIELD a entities Ljava/util/List;
+	FIELD c lastUpdate J
 	FIELD d snowCovered Z
+	FIELD k players Ljava/util/List;
 	FIELD n rand Ljava/util/Random;
 	FIELD o spawnX I
 	FIELD p spawnY I
@@ -26,11 +29,14 @@ CLASS cn net/minecraft/level/Level
 		ARG 3 z
 		ARG 4 tileId
 	METHOD a computeLight (Lby;III)I
+	METHOD a createLevelGenerator (Ljava/io/File;)Law;
+		ARG 1 save
 	METHOD a readTagOrSomething (Ljava/io/File;Ljava/lang/String;)Lhm;
 		ARG 0 directory
 		ARG 1 levelName
 	METHOD a playSound (Ljava/lang/String;DDDDDD)V
 	METHOD a spawnEntity (Lkh;)Z
+		ARG 1 entity
 	METHOD a playSound (Lkh;Ljava/lang/String;FF)V
 	METHOD a (ZLnu;)V
 		ARG 2 info
@@ -56,3 +62,4 @@ CLASS cn net/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD l prepareForChunkSave ()V
