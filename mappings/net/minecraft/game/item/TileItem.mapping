@@ -1,0 +1,2 @@
+CLASS av net/minecraft/game/item/TileItem
+	FIELD a tileId I
