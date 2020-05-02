@@ -40,6 +40,7 @@ CLASS di net/minecraft/game/item/ItemType
 	FIELD aQ record13 Ldi;
 	FIELD aR recordCat Ldi;
 	FIELD aS id I
+	FIELD aV textureIndex I
 	FIELD aa chainmailBoots Ldi;
 	FIELD ab ironHelmet Ldi;
 	FIELD ac ironChestplate Ldi;
@@ -87,6 +88,9 @@ CLASS di net/minecraft/game/item/ItemType
 	FIELD z diamondPickaxe Ldi;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD a textureIndex (I)Ldi;
+	METHOD a getTextureIndex (Lev;)I
+		ARG 1 instance
 	METHOD a onRightClick (Lev;Lcn;Ldm;)Lev;
 		ARG 1 instance
 		ARG 2 level
@@ -99,3 +103,6 @@ CLASS di net/minecraft/game/item/ItemType
 		ARG 5 y
 		ARG 6 z
 		ARG 7 meta
+	METHOD a useOnMob (Lev;Lge;)V
+		ARG 1 instannce
+		ARG 2 mob
