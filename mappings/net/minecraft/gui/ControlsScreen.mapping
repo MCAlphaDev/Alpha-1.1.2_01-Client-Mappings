@@ -1,0 +1,3 @@
+CLASS lw net/minecraft/gui/ControlsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD i controls Lfr;

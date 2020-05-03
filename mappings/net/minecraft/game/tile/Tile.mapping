@@ -80,15 +80,22 @@ CLASS ly net/minecraft/game/tile/Tile
 	FIELD ba FENCE Lly;
 	FIELD bb texture I
 	FIELD bc id I
+	FIELD bd hardness F
+	FIELD be resistance F
+	FIELD bl sound Lbb;
 	FIELD e SOUND_STONE Lbb;
 	FIELD f SOUND_WOOD Lbb;
 	FIELD g SOUND_GRAVEL Lbb;
 	FIELD h SOUND_GRASS Lbb;
 	FIELD i SOUND_DEFAULT Lbb;
 	FIELD j SOUND_METAL_BLOCK Lbb;
+	FIELD k SOUND_GLASS Lbb;
 	FIELD l SOUND_CLOTH Lbb;
 	FIELD m SOUND_SAND Lbb;
 	FIELD n TILE_LOOKUP [Lly;
+	FIELD o ticking [Z
+	FIELD p opaqueMap [Z
+	FIELD r transparencyMap [I
 	FIELD u STONE Lly;
 	FIELD v GRASS Lmy;
 	FIELD w DIRT Lly;
@@ -99,17 +106,42 @@ CLASS ly net/minecraft/game/tile/Tile
 		ARG 1 id
 		ARG 2 material
 	METHOD a setLight (F)Lly;
+	METHOD a setModelShape (FFFFFF)V
 	METHOD a getTexture (I)I
 		ARG 1 side
 	METHOD a getDrop (ILjava/util/Random;)I
 		ARG 2 rand
 	METHOD a setSound (Lbb;)Lly;
+	METHOD a canPlaceAt (Lcn;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a tick (Lcn;IIII)V
 		ARG 1 level
+	METHOD a computeModel (Lcn;IIILcf;Ljava/util/ArrayList;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 6 AABBs
 	METHOD a (Lcn;IIILdm;)Z
 		ARG 5 entityInstance
+	METHOD a tick (Lcn;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand
+	METHOD a getTextureByFace (Lnm;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
 	METHOD b isOpaque ()Z
 	METHOD b setResistance (F)Lly;
+		ARG 1 resistance
 	METHOD b onBlockBreak (Lcn;IIII)V
 		ARG 1 level
 		ARG 2 x
@@ -118,14 +150,17 @@ CLASS ly net/minecraft/game/tile/Tile
 		ARG 5 meta
 	METHOD b (Lcn;IIILdm;)V
 		ARG 5 entityInstance
+	METHOD b ticks (Z)V
+		ARG 1 ticks
 	METHOD c isSolid ()Z
 	METHOD c setHardness (F)Lly;
+		ARG 1 hardness
 	METHOD c (Lcn;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD d maybeSomeRenderingThing (I)Lly;
+	METHOD d setOpacity (I)Lly;
 	METHOD e onBlockPlaced (Lcn;III)V
 		ARG 1 level
 		ARG 2 x

@@ -1,1 +1,2 @@
 CLASS bh net/minecraft/gui/Screen
+	FIELD e buttons Ljava/util/List;

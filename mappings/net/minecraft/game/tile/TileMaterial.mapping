@@ -1,9 +1,28 @@
 CLASS gb net/minecraft/game/tile/TileMaterial
+	FIELD a AIR Lgb;
 	FIELD b DIRT Lgb;
 	FIELD c WOOD Lgb;
 	FIELD d ROCK Lgb;
 	FIELD e METAL Lgb;
 	FIELD f WATER Lgb;
 	FIELD g LAVA Lgb;
+	FIELD h LEAVES Lgb;
+	FIELD i PLANT Lgb;
+	FIELD j SPONGE Lgb;
 	FIELD k CLOTH Lgb;
+	FIELD l FIRE Lgb;
+	FIELD m SAND Lgb;
+	FIELD n STONE_DEVICE Lgb;
 	FIELD o GLASS Lgb;
+	FIELD p TNT Lgb;
+	FIELD q UNUSED Lgb;
+	FIELD r ICE Lgb;
+	FIELD s GRASS Lgb;
+	FIELD t SNOW Lgb;
+	FIELD u CACTUS Lgb;
+	FIELD v CLAY Lgb;
+	FIELD w burns Z
+	METHOD b blocksLight ()Z
+	METHOD c isSolid ()Z
+	METHOD e canBurn ()Z
+	METHOD f burns ()Lgb;

@@ -1,1 +1,2 @@
 CLASS jt net/minecraft/game/tile/Container
+	METHOD a_ createSerialiser ()Lic;

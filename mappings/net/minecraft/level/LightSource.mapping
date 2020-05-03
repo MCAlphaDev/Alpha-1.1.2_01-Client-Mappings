@@ -1,4 +1,4 @@
-CLASS by net/minecraft/sortme/LightSource
+CLASS by net/minecraft/level/LightSource
 	FIELD a SKY Lby;
 	FIELD b BLOCK Lby;
 	FIELD c lightLevel I

@@ -62,4 +62,5 @@ CLASS cn net/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD j getLight (III)I
 	METHOD l prepareForChunkSave ()V

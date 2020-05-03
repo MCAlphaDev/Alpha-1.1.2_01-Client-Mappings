@@ -1,1 +1,3 @@
 CLASS my net/minecraft/game/tile/Grass
+	METHOD <init> (I)V
+		ARG 1 id
