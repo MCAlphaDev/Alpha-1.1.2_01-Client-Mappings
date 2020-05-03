@@ -1,1 +1,20 @@
 CLASS bv net/minecraft/game/recipe/ShapedRecipe
+	FIELD a resultId I
+	FIELD b width I
+	FIELD c height I
+	FIELD d recipe [I
+	FIELD e result Lev;
+	METHOD <init> (II[ILev;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 recipe
+		ARG 4 result
+	METHOD a getSize ()I
+	METHOD a canCraft ([I)Z
+		ARG 1 recipe
+	METHOD a ([IIIZ)Z
+		ARG 1 recipe
+		ARG 2 x
+		ARG 3 y
+	METHOD b craft ([I)Lev;
+		ARG 1 recipe

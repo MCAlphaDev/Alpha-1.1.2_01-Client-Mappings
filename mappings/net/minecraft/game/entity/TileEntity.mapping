@@ -1,0 +1,3 @@
+CLASS nq net/minecraft/game/entity/TileEntity
+	METHOD <init> (Lcn;DDDDDD)V
+		ARG 1 level

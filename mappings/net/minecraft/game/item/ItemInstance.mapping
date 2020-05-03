@@ -1,7 +1,7 @@
 CLASS ev net/minecraft/game/item/ItemInstance
 	FIELD a count I
 	FIELD c id I
-	FIELD d meta I
+	FIELD d damage I
 	METHOD <init> (I)V
 		ARG 1 id
 	METHOD <init> (II)V
@@ -26,15 +26,28 @@ CLASS ev net/minecraft/game/item/ItemInstance
 	METHOD a getItem ()Ldi;
 	METHOD a subtract (I)Lev;
 		ARG 1 arg0
+	METHOD a use (IIII)V
 	METHOD a (Ldm;)V
-		ARG 1 resourceHandler
-	METHOD a (Ldm;Lcn;IIII)Z
+		ARG 1 player
+	METHOD a interact (Ldm;Lcn;IIII)Z
 		ARG 1 resourceHandler
 		ARG 2 level
+	METHOD a attack (Lge;)V
+		ARG 1 mob
+	METHOD a toTag (Lhm;)Lhm;
+		ARG 1 tag
+	METHOD a useOnEntity (Lkh;)I
+		ARG 1 entity
 	METHOD a (Lly;)F
 		ARG 1 tile
-	METHOD b (Lge;)V
-		ARG 1 resourceHandler
-	METHOD b setOutput (Lhm;)V
-	METHOD b (Lly;)Z
-		ARG 1 item
+	METHOD b getTextureIndex ()I
+	METHOD b damage (I)V
+		ARG 1 amount
+	METHOD b useOnMob (Lge;)V
+		ARG 1 mob
+	METHOD b fromTag (Lhm;)V
+		ARG 1 tag
+	METHOD b useOnTile (Lly;)Z
+		ARG 1 tile
+	METHOD d maxDamage ()I
+	METHOD e copy ()Lev;

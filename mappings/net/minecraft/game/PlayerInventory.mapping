@@ -1,0 +1,13 @@
+CLASS eu net/minecraft/game/PlayerInventory
+	FIELD a inventoryItems [Lev;
+	FIELD b armourItems [Lev;
+	FIELD c craftingItems [Lev;
+	FIELD d selectedSlot I
+	METHOD a getSelectedItem ()Lev;
+	METHOD a toTag (Lki;)Lki;
+	METHOD b fromTag (Lki;)V
+	METHOD f indexOf (I)I
+		ARG 1 id
+	METHOD g (I)I
+		ARG 1 id
+	METHOD j getNextEmptySlot ()I

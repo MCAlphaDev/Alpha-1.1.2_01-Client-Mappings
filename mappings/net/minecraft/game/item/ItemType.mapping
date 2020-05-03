@@ -91,6 +91,8 @@ CLASS di net/minecraft/game/item/ItemType
 	METHOD a textureIndex (I)Ldi;
 	METHOD a getTextureIndex (Lev;)I
 		ARG 1 instance
+	METHOD a use (Lev;IIII)V
+		ARG 1 instance
 	METHOD a onRightClick (Lev;Lcn;Ldm;)Lev;
 		ARG 1 instance
 		ARG 2 level
@@ -103,6 +105,12 @@ CLASS di net/minecraft/game/item/ItemType
 		ARG 5 y
 		ARG 6 z
 		ARG 7 meta
-	METHOD a useOnMob (Lev;Lge;)V
-		ARG 1 instannce
+	METHOD a attack (Lev;Lge;)V
+		ARG 1 instance
 		ARG 2 mob
+	METHOD a useOnEntity (Lkh;)I
+	METHOD a useOnTile (Lly;)Z
+	METHOD b useOnMob (Lev;Lge;)V
+		ARG 1 instance
+		ARG 2 mob
+	METHOD c getMaxDamage ()I

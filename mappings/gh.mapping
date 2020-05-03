@@ -1,0 +1,4 @@
+CLASS gh
+	METHOD c getItemInstance (I)Lev;
+		ARG 1 slot
+	METHOD d getName ()Ljava/lang/String;

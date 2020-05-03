@@ -1,3 +1,4 @@
 CLASS dm net/minecraft/game/entity/Player
+	FIELD b inventory Leu;
 	FIELD d score I
 	FIELD i skinLoc Ljava/lang/String;
