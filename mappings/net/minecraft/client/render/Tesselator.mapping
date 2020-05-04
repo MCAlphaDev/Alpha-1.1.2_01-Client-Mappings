@@ -1,0 +1,67 @@
+CLASS ho net/minecraft/client/render/Tesselator
+	FIELD B size I
+	FIELD a INSTANCE Lho;
+	FIELD d buffer Ljava/nio/ByteBuffer;
+	FIELD g vertices [I
+	FIELD h vertexCount I
+	FIELD i u D
+	FIELD j v D
+	FIELD k colour I
+	FIELD l hasColour Z
+	FIELD m hasTexture Z
+	FIELD p startedVertexCount I
+	FIELD q noColour Z
+	FIELD r mode I
+	FIELD s xOffset D
+	FIELD t yOffset D
+	FIELD u zOffset D
+	FIELD w tesselating Z
+	METHOD <init> (I)V
+		ARG 1 size
+	METHOD a finishTesselating ()V
+	METHOD a uv (DD)V
+		ARG 1 u
+		ARG 3 v
+	METHOD a vertex (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a texturedVertex (DDDDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 u
+		ARG 9 v
+	METHOD a colour (FFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a colour (FFFF)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD a tesselate (I)V
+		ARG 1 mode
+	METHOD a colour (III)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+	METHOD a colour (IIII)V
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD b tesselate ()V
+	METHOD b position (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b colour (I)V
+		ARG 1 colour
+	METHOD c noColour ()V
+	METHOD c offset (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d reset ()V

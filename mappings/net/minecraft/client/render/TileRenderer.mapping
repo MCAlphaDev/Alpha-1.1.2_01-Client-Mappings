@@ -1,0 +1,20 @@
+CLASS bc net/minecraft/client/render/TileRenderer
+	FIELD a level Lnm;
+	METHOD <init> (Lnm;)V
+		ARG 1 level
+	METHOD a renderTile (Lly;III)Z
+		ARG 1 tile
+	METHOD a renderTile (Lly;IIII)V
+		ARG 1 tile
+	METHOD b renderTileMode2 (Lly;III)Z
+	METHOD d renderTileMode3 (Lly;III)Z
+		ARG 1 tile
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e renderTileMode5 (Lly;III)Z
+	METHOD h renderTileMode1 (Lly;III)Z
+	METHOD i renderTileMode6 (Lly;III)Z
+	METHOD j renderTileMode4 (Lly;III)Z
+	METHOD k renderTileMode0 (Lly;III)Z
+	METHOD l renderTileMode13 (Lly;III)Z

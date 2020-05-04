@@ -1,0 +1,2 @@
+CLASS df net/minecraft/client/RenderUtils
+	METHOD b createByteBuffer (I)Ljava/nio/ByteBuffer;

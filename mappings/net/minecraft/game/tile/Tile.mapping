@@ -166,6 +166,7 @@ CLASS ly net/minecraft/game/tile/Tile
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD f getRenderMode ()I
 	METHOD g canBePlacedAtMaybe (Lcn;III)Z
 		ARG 1 level
 		ARG 2 x
